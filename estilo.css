@@ -1,0 +1,268 @@
+ :root{
+    --preto_fundo:#00030C;
+    --branco-principal:#FFFFFF;
+    --cor_azul:#167BF7;
+    
+ }
+
+ :root{
+    font-family: sans-serif;
+ }
+
+
+body{
+    background-color: var(--preto_fundo);
+}
+
+
+p{
+    color: var(--branco-principal);
+}
+
+
+
+a{
+    color:inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.container{
+    height: 100vh;;
+}
+
+section.abertura{
+    background-image: url("imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns:50% 50%;
+    align-items: center;
+    text-align: center;
+}
+
+section.abertura h1{
+    color: var(--branco-principal);
+    font-size: 28px;
+    width: 580px;
+    margin-left: 3em;
+}
+
+
+
+.container{
+text-decoration: none;
+}
+
+
+.container__imagem{
+    margin: 1em 0 3em 0;
+    text-align:center;
+}
+
+
+figure.center{
+    text-align: center;
+}
+
+.conteiner__transparente{
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: var(--branco-principal);
+    color: var(--branco-principal);
+    display: block;
+    margin: 1em 5em 0 5em;
+}
+
+.coteiner__azul{
+    background-color: var(--cor_azul);
+    border: 1px solid;
+    border-color: var(--cor_azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 8px;
+    display: block;
+    margin: 1em 5em 0em 5em;
+}
+
+.nota{
+    font-size: 0.8em;
+}
+
+
+
+.segun_parte{
+    display: grid;
+    grid-template-columns:50% 50%;
+    align-items: center;
+    text-align: center;
+}
+
+
+section.segun_parte h1{
+    text-align: left;
+    color: var(--branco-principal);
+    font-size: 3em;
+    width: 580px;
+    margin:0;
+}
+
+section.segun_parte p{
+    text-align: left;
+    color: var(--branco-principal);
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.terceira_parte{
+    display: grid;
+    grid-template-columns:50% 50%;
+    align-items: left;
+    text-align: left;
+    margin-top: 2em;
+}
+
+
+section.terceira_parte h2{
+    text-align: left;
+    color: var(--branco-principal);
+    font-size: 3em;
+    width: 580px;
+    margin:0;
+}
+
+section.terceira_parte p{
+    text-align: left;
+    color: var(--branco-principal);
+    margin: 0;
+}
+
+
+
+.coteiner__azul_segundario{
+    background-color: var(--cor_azul);
+    border: 1px solid;
+    border-color: var(--cor_azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+
+section.terceira_parte .container__imagem{
+    margin: 1em 0 3em 2em;
+    text-align:left;
+}
+
+
+
+
+
+
+.quarta_parte{
+    display: grid;
+    grid-template-columns:50% 50%;
+    align-items: left;
+    text-align: left;
+    margin-top: 2em;
+}
+
+
+section.quarta_parte h2{
+    text-align: left;
+    color: var(--branco-principal);
+    font-size: 3em;
+    width: 580px;
+    margin:0;
+}
+
+section.quarta_parte p{
+    text-align: left;
+    color: var(--branco-principal);
+    margin: 0;
+}
+
+
+
+.coteiner__azul_segundario{
+    background-color: var(--cor_azul);
+    border: 1px solid;
+    border-color: var(--cor_azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+
+section.quarta_parte .container__imagem{
+    margin: 1em 0 3em 2em;
+    text-align:left;
+}
+
+
+h3, h2{
+    color:var(--branco-principal);
+}
+
+.lista__flex{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.final{
+    text-align: center;
+}
+
+ul, li{
+    list-style: none;
+}
+
+.title_final{
+    font-size: 32px;
+}
+
+.container_footer{
+    text-align:center;
+}
+
+
+.paragrafo_com_links a:hover{
+    color:var(--cor_azul);
+}
+
+.paragrafo_com_links a:active{
+    color:darkgreen;
+}
+
+.container_div a.conteiner__transparente:hover{
+    background-color: var(--cor_azul);
+}
+.container_div a.coteiner__azul:hover{
+    background-color:var(--branco-principal);
+    color: var(--preto_fundo);
+}
